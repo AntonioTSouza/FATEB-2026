@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilo.css">
+    <title>Um quiz</title>
+</head>
+<body>
+	<h1 class="inicio">Vamos começar este questionário!</h1><br>
+	<form action="resultado.php" method="POST">
+		<div>
+			<div class="questao">			
+				<p><strong>QUESTÃO 1</strong></p>
+				Qual ataque o charmander aprende ao subir pro nível 4?
+				<div class="conteudo">
+					<img src="imagens/char.png" width="100pt" class="img">
+					<div class="alternativas">
+						<label class="opt"><input type="radio" name="op1" value="a" class="opt">Metal Claw</label>
+						<label class="opt"><input type="radio" name="op1" value="b" class="opt">Flamethrower</label>
+						<label class="opt"><input type="radio" name="op1" value="c" class="opt">Ember</label>
+						<label class="opt"><input type="radio" name="op1" value="d" class="opt">Scratch</label>
+						<label class="opt"><input type="radio" name="op1" value="e" class="opt">Tackle</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="questao">
+				<p><strong>QUESTÃO 2</strong></p>
+				Quem é esse pokémon?
+				<div class="conteudo">
+					<img src="imagens/silhueta.png" width="100pt" class="img">
+					<div class="alternativas">
+						<label class="opt"><input type="radio" name="op2" value="a" >Snivy</label>
+						<label class="opt"><input type="radio" name="op2" value="b" >Ekans</label>
+						<label class="opt"><input type="radio" name="op2" value="c">Bulbasaur</label>
+						<label class="opt"><input type="radio" name="op2" value="d">Treecko</label>
+						<label class="opt"><input type="radio" name="op2" value="e">Bellsprout</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="questao">
+				<p><strong>QUESTÃO 3</strong></p>
+				Como se chama este pokémon?
+				<div class="conteudo">
+					<img src="imagens/nido.png" width="100pt" class="img">
+					<div class="alternativas">
+						<label class="opt"><input type="radio" name="op3" value="a">Nidoran ♂</label>
+						<label class="opt"><input type="radio" name="op3" value="b">Nidoran ♀</label>
+						<label class="opt"><input type="radio" name="op3" value="c">Nidorino</label>
+						<label class="opt"><input type="radio" name="op3" value="d">Nidorina</label>
+						<label class="opt"><input type="radio" name="op3" value="e">Nidorana</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="questao">
+				<p><strong>QUESTÃO 4</strong></p>
+				Nos Pokémon Red, Blue e Yellow, existe um cruzeiro de luxo<br> 
+				que vai embora depois de pegar uma habilidade especial<br>  
+				HM01 (<em>cut</em>). Qual o nome do cruzeiro?
+				<div class="conteudo">
+					<div class="alternativas">
+						<label class="optNI"><input type="radio" name="op4" value="a">s.s.anne</label>
+						<label class="optNI"><input type="radio" name="op4" value="b">S.s ane</label>
+						<label class="optNI"><input type="radio" name="op4" value="c">SS Ane</label>
+						<label class="optNI"><input type="radio" name="op4" value="d">S.S Anne</label>
+						<label class="optNI"><input type="radio" name="op4" value="e">S.S Anna</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="questao">
+				<p><strong>QUESTÃO 5</strong></p>
+				Quem são os Pokémon iniciais da <strong>segunda</strong> geração?
+				<div class="conteudo">
+					<div class="alternativas">
+						<label class="optNI"><input type="radio" name="op5" value="a">Squirtle, Charmander, Bulbasaur</label>
+						<label class="optNI"><input type="radio" name="op5" value="b">Totodile, Cyndaquill, Chikorita</label>
+						<label class="optNI"><input type="radio" name="op5" value="c">Mudkip, Trecko, Torchic</label>
+						<label class="optNI"><input type="radio" name="op5" value="d">Oshawott, Tepig, Snivy</label>
+						<label class="optNI"><input type="radio" name="op5" value="e">Ash, Misty, Brock</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			<div class="questao">
+				<p><strong>QUESTÃO 6</strong></p>
+				Quantas cidades e vilas existem na região de <strong>Kanto</strong> <br>
+				(primeira geração Pokémon)?
+				<div class="conteudo">
+					<div class="alternativas">
+						<label class="optNI"><input type="radio" name="op6" value="a">5</label>
+						<label class="optNI"><input type="radio" name="op6" value="b">13</label>
+						<label class="optNI"><input type="radio" name="op6" value="c">14</label>
+						<label class="optNI"><input type="radio" name="op6" value="d">8</label>
+						<label class="optNI"><input type="radio" name="op6" value="e">10</label>
+					</div>
+				</div>
+			</div>
+			
+			<div class="questao">
+				<p><strong>QUESTÃO 7</strong></p>
+				Essa dupla é Jessie e James, e são conhecidos em pokémon. <br>
+				De qual equipe eles fazem parte?
+				<div class="conteudo">
+					<img src="imagens/JJ.png" width="150pt" class="img">
+					<div class="alternativas">
+						<label class="opt"><input type="radio" name="op7" value="a">Equipe Instinto</label>
+						<label class="opt"><input type="radio" name="op7" value="b">Nenhuma</label>
+						<label class="opt"><input type="radio" name="op7" value="c">Equipe do Giovanni</label>
+						<label class="opt"><input type="radio" name="op7" value="d">Equipe Rocket</label>
+						<label class="opt"><input type="radio" name="op7" value="e">Equipe Anti-Pokémon</label>
+					</div>
+				</div>
+			</div>
+			
+			<div class="questao">
+				<p><strong>QUESTÃO 8</strong></p>
+				Ash Ketchum sofreu redesigns ao longo de cada fase de <br> 
+				sua jornada. Com isso, os bonés também mudaram com <br> 
+				ele. Quantos bonés ele já usou no anime (até 2023)?
+				<div class="conteudo">
+					<div class="alternativas">
+						<label class="optNI"><input type="radio" name="op8" value="a">5</label>
+						<label class="optNI"><input type="radio" name="op8" value="b">1</label>
+						<label class="optNI"><input type="radio" name="op8" value="c">6</label>
+						<label class="optNI"><input type="radio" name="op8" value="d">7</label>
+						<label class="optNI"><input type="radio" name="op8" value="e">8</label>
+					</div>
+				</div>
+			</div>
+			
+			<div class="questao">
+				<p><strong>QUESTÃO 9</strong></p>
+				Este é Ditto, um pokémon que copia, de forma imperfeita, <br>
+				qualquer pokémon existente exceto deuses. Qual é o tipo dele?
+				<div class="conteudo">
+					<img src="imagens/Ditto.png" width="100pt" class="img">
+					<div class="alternativas">
+						<label class="opt"><input type="radio" name="op9" value="a">Veneno</label>
+						<label class="opt"><input type="radio" name="op9" value="b">Adaptável</label>
+						<label class="opt"><input type="radio" name="op9" value="c">Normal</label>
+						<label class="opt"><input type="radio" name="op9" value="d">Lutador</label>
+						<label class="opt"><input type="radio" name="op9" value="e">Inseto</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="questao">
+				<p><strong>QUESTÃO 10</strong></p>
+				Ash conseguiu se tornar um mestre pokémon que <br> ele sempre sonhou em ser?
+				<div class="conteudo">
+					<div class="alternativas">
+						<label class="optNI"><input type="radio" name="op10" value="a">Sim</label>
+						<label class="optNI"><input type="radio" name="op10" value="b">Não</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="botoes">
+			<input type="submit" value="Finalizar">
+			<a href="index.html" id="voltar">Voltar</a>
+		</div>
+	</form>
+</body>
+</html>
