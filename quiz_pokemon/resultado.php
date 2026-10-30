@@ -191,7 +191,7 @@
         <h2>Correção</h2>
         <?php foreach($resultados as $resultado) { ?>
             <div class="resultado_questao">
-                <h3><?php echo strtoupper($resultado["questao"]);?></h3>
+                <h3>QUESTÃO <?= (int) substr($resultado["questao"], 2); ?></h3>
 
                 <?php if($resultado["acertou"]){?>
                     <p class="acerto">Você acertou! Muito bem!</p>
